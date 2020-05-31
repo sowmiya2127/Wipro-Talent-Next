@@ -1,0 +1,13 @@
+ public int secondlastdigit(int intput1,int input2)
+  {
+  int n=iput1;
+   if(n<0)
+		n *= -1;
+		if(n<9)
+		return -1;
+		else 
+		{
+			n=(n%100)/10;
+			return n;
+		}
+    }
