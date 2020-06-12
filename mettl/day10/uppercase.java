@@ -1,18 +1,11 @@
 public string secondWordUppercase(String input1)
 {
-try{
-String[] str=input1.split(" ");
-if(str.length>1)
-{
-return str[1].toUpperCase;
-}
-else
-{
- return "LESS";
- }
- catch(Exception e){
- throw new UnsupportedOperationException("SecondWordUpperCaase(String input1)");
- }
+String s[]=input1.split("");
+        if(s.length==1)
+        return "LESS";
+        String s1=s[1];
+        s1=s1.toUpperCase();
+        return s1;
  }
  }
  
